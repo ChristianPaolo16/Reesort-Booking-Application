@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#banner {
+	height: 70vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background-image: url('https://images.wallpaperscraft.com/image/single/beach_top_view_shore_162951_1280x1024.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bannerText {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Permanent Marker', cursive;
+	color: black;
+}
+
+#brand {
+	height: 4.5rem;
+}
+
+nav {
+	width: 100vw;
+}
+
+#appNav {
+	background-color: #ffffff;
+}
+
+.nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Permanent Marker', cursive;
+	color: #000000 !important;
+	font-size: 1.1rem !important;
+}
+
+#registerText {
+	margin: 8rem 0 2rem 0;
+}
+
+#registerForm {
+	margin: 0;
+}
+
+#loginText {
+	margin: 8rem 0 2rem 0;
+}
+
+#loginForm {
+	margin: 0;
+}
+
+#roomsText {
+	margin: 8rem 0 2rem 0;
+}
+
+#addRoomText {
+	margin: 8rem 0 2rem 0;
+}
+
+#addRoomForm {
+	margin: 0;
+}
+
+#adminViewRooms {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 8rem;
+}
+
+#updateRoom {
+	margin: 8rem 0 2rem 0;
+}
+
+#googleMap {
+	width: 10vw;
+	height: 10vh;
+	border: 0;
+}
+
+#userBookings {
+	margin-top: 8rem;
+}
+
+#userBookingsText {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#image404 {
+	height: 50vh;
+}
