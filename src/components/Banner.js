@@ -1,4 +1,6 @@
-import { Row , Col } from 'react-bootstrap';
+import { Button, Row , Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 export default function Banner () {
     
@@ -10,7 +12,7 @@ export default function Banner () {
                     <p id='bannerText'>
                     It doesn&apos;t matter where you go in life, as long as you go to the beach.
                     </p>
-                    <button type="button" className="btn btn-secondary btn-md mx-2 ">Book Now</button>
+                    <Button as = {Link} to = "/bookNow">Book Now</Button>
                 </Col>
             </Row>
         </div>
