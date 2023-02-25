@@ -12,7 +12,7 @@ export default function Banner () {
                     <p id='bannerText'>
                     It doesn&apos;t matter where you go in life, as long as you go to the beach.
                     </p>
-                    <Button as = {Link} to = "/bookNow">Book Now</Button>
+                    <Button variant='secondary' as = {Link} to = "/bookNow">Book Now</Button>
                 </Col>
             </Row>
         </div>
